@@ -1,0 +1,119 @@
+body {
+  background: white;
+  color: black;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.list-game-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.home-title {
+  font-size: 24px;
+  color: #454545;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Muli, sans-serif;
+}
+
+.filter-btn.selected[data-v-209b35b6] {
+  background-color: #e26900;
+  border-color: #e26900;
+  color: #fff;
+}
+
+.filter-btn[data-v-209b35b6] {
+  padding: 7px 15px;
+  border: 1px solid #c8c8c8;
+  border-radius: 30px;
+  font-size: 12px;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.filter-btn[data-v-209b35b6]:hover {
+  background-color: #ecb400;
+  border-color: #ecb400;
+}
+
+.container-listcard {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, 300px);
+}
+
+.infinite {
+  padding-bottom: 20px;
+}
+
+.animationCustom {
+  -webkit-animation: fadedin 1s 1 forwards;
+  animation: fadedin 1s 1 forwards;
+}
+
+.el-card {
+  border: 0;
+  margin-bottom: 10px;
+  position: relative;
+}
+.el-card .el-button {
+  border-radius: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  position: absolute;
+  z-index: 9;
+  right: 10px;
+  bottom: 20px;
+  padding: 8px 14px;
+  background-color: #e26900;
+  border-color: #e26900;
+}
+.el-card .el-button:hover {
+  background-color: #ecb400;
+  border-color: #ecb400;
+}
+.el-card .el-button--primary {
+  color: #fff;
+}
+.el-card h4 {
+  font-weight: 700;
+  color: #454545;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 9px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.el-card__body {
+  min-height: 200px;
+}
+
+.thumb-img {
+  width: 100%;
+  min-height: 160px;
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 5px;
+  position: relative;
+}/*# sourceMappingURL=main.css.map */
