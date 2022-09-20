@@ -5,9 +5,192 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <title>SCSS tutorial</title>
   </head>
   <body>
+    <div id="header" class="header at-top payzing">
+      <div class="navHeader container fullWidth">
+        <div class="logo-container">
+          <a href="/" class="router-link-exact-active active">
+            <img
+              alt="pay-zing-logo"
+              src="https://pay.zing.vn/static/img/zing-logo.png?ts=144212_20220915"
+          /></a>
+          <div id="search-bar" custom-value="HEADER" style="display: none">
+            <div
+              aria-haspopup="listbox"
+              role="combobox"
+              aria-owns="el-autocomplete-1174"
+              class="el-autocomplete inline-input custom-searching-button is-compact"
+            >
+              <div class="el-input is-disabled el-input--prefix">
+                <!----><input
+                  type="text"
+                  disabled="disabled"
+                  autocomplete="off"
+                  valuekey="value"
+                  popperclass="false payzing"
+                  placeholder="Tìm game"
+                  fetchsuggestions="function () { [native code] }"
+                  debounce="300"
+                  placement="bottom-start"
+                  popperappendtobody="true"
+                  class="el-input__inner"
+                  role="textbox"
+                  aria-autocomplete="list"
+                  aria-controls="id"
+                  aria-activedescendant="el-autocomplete-1174-item--1"
+                /><span class="el-input__prefix"
+                  ><i class="el-input__icon el-icon-search"></i
+                  ><!----></span
+                ><!----><!----><!---->
+              </div>
+              <div
+                role="region"
+                class="el-autocomplete-suggestion el-popper false payzing"
+                style="display: none"
+              >
+                <div class="el-scrollbar">
+                  <div
+                    class="el-autocomplete-suggestion__wrap el-scrollbar__wrap"
+                    style="margin-bottom: -17px; margin-right: -17px"
+                  >
+                    <ul
+                      class="el-scrollbar__view el-autocomplete-suggestion__list"
+                      role="listbox"
+                      id="el-autocomplete-1174"
+                    ></ul>
+                  </div>
+                  <div class="el-scrollbar__bar is-horizontal">
+                    <div
+                      class="el-scrollbar__thumb"
+                      style="transform: translateX(0%)"
+                    ></div>
+                  </div>
+                  <div class="el-scrollbar__bar is-vertical">
+                    <div
+                      class="el-scrollbar__thumb"
+                      style="transform: translateY(0%)"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="menu" class="right-header at-top">
+          <a href="javascript:void(0)">Câu hỏi thường gặp</a
+          ><a href="javascript:void(0)">Hướng dẫn nạp tiền</a
+          ><a href="javascript:void(0)">Đại lý thẻ Zing</a>
+          <div class="el-dropdown">
+            <a
+              aria-haspopup="list"
+              aria-controls="dropdown-menu-1273"
+              role="button"
+              tabindex="0"
+              class="el-dropdown-selfdefine"
+            >
+              SMS <i class="el-icon-arrow-down el-icon--right"></i
+            ></a>
+            <ul
+              class="el-dropdown-menu el-popper"
+              id="dropdown-menu-1273"
+              style="display: none"
+            >
+              <li tabindex="-1" class="el-dropdown-menu__item">
+                <!---->Viettel
+              </li>
+            </ul>
+          </div>
+          <a href="javascript:void(0)">Game trên Zalo</a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="banner payzing"
+      style="
+        background-image: url('https://stc_cdn.vcdn.vn/mainsite/images/JX1M-search-banner-1920x450.jpg');
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      "
+    >
+      <!----><!---->
+      <div class="search">
+        <div class="contain-box">
+          <h2>Nạp game ngay!</h2>
+          <h3>Cổng nạp chính thức các game của VNG</h3>
+          <div id="search-bar" custom-value="BANNER">
+            <div
+              aria-haspopup="listbox"
+              role="combobox"
+              aria-owns="el-autocomplete-4830"
+              class="el-autocomplete inline-input custom-searching-button"
+            >
+              <div class="el-input el-input--prefix">
+                <!---->
+                <input
+                  type="text"
+                  autocomplete="off"
+                  valuekey="value"
+                  popperclass="false payzing"
+                  placeholder="Tìm game"
+                  fetchsuggestions="function () { [native code] }"
+                  debounce="300"
+                  placement="bottom-start"
+                  popperappendtobody="true"
+                  class="el-input__inner"
+                  role="textbox"
+                  aria-autocomplete="list"
+                  aria-controls="id"
+                  aria-activedescendant="el-autocomplete-4830-item--1"
+                />
+                <span class="el-input__prefix">
+                  <!-- <i class='fa fa-search'></i> -->
+                  <i class="el-input__icon el-icon-search"> </i> </span
+                ><!----><!----><!---->
+              </div>
+              <div
+                role="region"
+                class="el-autocomplete-suggestion el-popper false payzing"
+                style="display: none"
+              >
+                <div class="el-scrollbar">
+                  <div
+                    class="el-autocomplete-suggestion__wrap el-scrollbar__wrap"
+                    style="margin-bottom: -17px; margin-right: -17px"
+                  >
+                    <ul
+                      class="el-scrollbar__view el-autocomplete-suggestion__list"
+                      role="listbox"
+                      id="el-autocomplete-4830"
+                    ></ul>
+                  </div>
+                  <div class="el-scrollbar__bar is-horizontal">
+                    <div
+                      class="el-scrollbar__thumb"
+                      style="transform: translateX(0%)"
+                    ></div>
+                  </div>
+                  <div class="el-scrollbar__bar is-vertical">
+                    <div
+                      class="el-scrollbar__thumb"
+                      style="transform: translateY(0%)"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----><!---->
+    </div>
     <div class="list-game-title custom-radio-button">
       <h3 class="home-title">Danh sách game</h3>
       <div>
@@ -174,6 +357,152 @@
           </div>
         </div>
       </div>
+      <div span="8" class="animationCustom">
+        <div class="el-card box-card is-never-shadow">
+          <div class="el-card__body" style="padding: 0px; cursor: pointer">
+            <div class title="Picture number 1">
+              <h4>Picture Number 7</h4>
+              <img
+                src="https://images.unsplash.com/photo-1662740600740-46d992377b1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                class="thumb-img"
+              />
+            </div>
+            <button
+              type="button"
+              class="el-button el-button--primary el-button--small is-round"
+              id=""
+            >
+              Nạp Ngay
+            </button>
+          </div>
+        </div>
+      </div>
+      <div span="8" class="animationCustom">
+        <div class="el-card box-card is-never-shadow">
+          <div class="el-card__body" style="padding: 0px; cursor: pointer">
+            <div class title="Picture number 1">
+              <h4>Picture Number 7</h4>
+              <img
+                src="https://images.unsplash.com/photo-1662740600740-46d992377b1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                class="thumb-img"
+              />
+            </div>
+            <button
+              type="button"
+              class="el-button el-button--primary el-button--small is-round"
+              id=""
+            >
+              Nạp Ngay
+            </button>
+          </div>
+        </div>
+      </div>
+      <div span="8" class="animationCustom">
+        <div class="el-card box-card is-never-shadow">
+          <div class="el-card__body" style="padding: 0px; cursor: pointer">
+            <div class title="Picture number 1">
+              <h4>Picture Number 7</h4>
+              <img
+                src="https://images.unsplash.com/photo-1662740600740-46d992377b1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                class="thumb-img"
+              />
+            </div>
+            <button
+              type="button"
+              class="el-button el-button--primary el-button--small is-round"
+              id=""
+            >
+              Nạp Ngay
+            </button>
+          </div>
+        </div>
+      </div>
+      <div span="8" class="animationCustom">
+        <div class="el-card box-card is-never-shadow">
+          <div class="el-card__body" style="padding: 0px; cursor: pointer">
+            <div class title="Picture number 1">
+              <h4>Picture Number 7</h4>
+              <img
+                src="https://images.unsplash.com/photo-1662740600740-46d992377b1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                class="thumb-img"
+              />
+            </div>
+            <button
+              type="button"
+              class="el-button el-button--primary el-button--small is-round"
+              id=""
+            >
+              Nạp Ngay
+            </button>
+          </div>
+        </div>
+      </div>
+      <div span="8" class="animationCustom">
+        <div class="el-card box-card is-never-shadow">
+          <div class="el-card__body" style="padding: 0px; cursor: pointer">
+            <div class title="Picture number 1">
+              <h4>Picture Number 7</h4>
+              <img
+                src="https://images.unsplash.com/photo-1662740600740-46d992377b1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                class="thumb-img"
+              />
+            </div>
+            <button
+              type="button"
+              class="el-button el-button--primary el-button--small is-round"
+              id=""
+            >
+              Nạp Ngay
+            </button>
+          </div>
+        </div>
+      </div>
+      <div span="8" class="animationCustom">
+        <div class="el-card box-card is-never-shadow">
+          <div class="el-card__body" style="padding: 0px; cursor: pointer">
+            <div class title="Picture number 1">
+              <h4>Picture Number 7</h4>
+              <img
+                src="https://images.unsplash.com/photo-1662740600740-46d992377b1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                class="thumb-img"
+              />
+            </div>
+            <button
+              type="button"
+              class="el-button el-button--primary el-button--small is-round"
+              id=""
+            >
+              Nạp Ngay
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 50 ||
+          document.documentElement.scrollTop > 50
+        ) {
+          document.getElementById("header").style.backgroundColor = "white";
+          document.getElementById("header").style.zIndex = "9999";
+          document.getElementById("menu").classList.remove("at-top");
+        } else {
+          document.getElementById("header").style.backgroundColor =
+            "transparent";
+          document.getElementById("header").style.zIndex = "3";
+          document.getElementById("menu").classList.add("at-top");
+        }
+      }
+    </script>
   </body>
 </html>
